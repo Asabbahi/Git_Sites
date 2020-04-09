@@ -1,0 +1,35 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bookmark
+{
+    background-color: #EEE;
+    text-align: center;
+}
+
+.header
+{
+    color:#AAA;
+	padding:20px;
+    font-size:25px;
+}
+
+.footer
+{
+    color: #AAA;
+}
+
+#siteUrl #siteName {
+    font-weight: bold;
+}
+
+.bookmarkListRow
+{
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}

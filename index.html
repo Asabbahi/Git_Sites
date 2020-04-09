@@ -1,0 +1,51 @@
+<html>
+
+<head>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body>
+  <div class="container my-3 border-bottom border-secondary ">
+    <h3 class="header">Bookmarker</h3>
+  </div>
+  <div class="container my-3  needs-validation">
+    <div class="bookmark my-3">
+      <div class="col">
+        <h2>Bookmark your favorite sites </h2>
+        <p style="font-weight: bold;">Site Name</p>
+        <input id="siteName" class="form-control" placeholder="Bookmark Name" type="text" required />
+        <div class="invalid-feedback">Name is required.</div>
+        <p style="font-weight: bold;">Site URL</p>
+        <input id="siteUrl" class="form-control" placeholder="website URL" type="text" required />
+        <div class="invalid-feedback">Url Field is required.</div>
+        <button id="addBtn" class="btn btn-primary my-3">Submit</button>
+      </div>
+    </div>
+  </div>
+  <div class="container my-3 border-bottom border-secondary">
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+         </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+  </div>
+  <div class="container my-3">
+    <p class="footer">&copy; 2019 Bookmarker Inc.</p>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
